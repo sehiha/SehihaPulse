@@ -25,7 +25,7 @@ function App() {
     // On envoie les données à notre workflow n8n
     try {
       // REMPLACEZ CETTE URL PAR L'URL DE VOTRE WEBHOOK N8N
-      const n8nWebhookUrl = 'https://VOTRE_URL_N8N.hooks.n8n.cloud/webhook/sehihapulse';
+      const n8nWebhookUrl = 'https://benquarrouaya.app.n8n.cloud/webhook-test/58f3e97a-09f4-461d-a339-7613a6c5c825';
 
       const response = await fetch(n8nWebhookUrl, {
         method: 'POST',
